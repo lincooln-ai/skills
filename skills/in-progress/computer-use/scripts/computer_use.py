@@ -625,13 +625,15 @@ def build_brief(task: dict, target: dict) -> str:
     forbid = task.get("forbid") or "none stated"
     allow = task.get("allow") or "none stated"
     pre = task.get("preapproved") or "none"
+    path = target.get("path") or bid
     lines = [
         "# Computer Use subtask (from Claude Code, via the computer-use skill)",
         "",
         "## Goal", task["goal"], "",
         "## Definition of done (must be visible in accessibility text or a screenshot)", task["done"], "",
-        "## Target app", f"Display name: {app_line}", f"Bundle ID: {bid}",
-        "Use the bundle ID for every sky call. If a call fails by name, retry once with the bundle ID; never guess another app.", "",
+        "## Target app", f"Display name: {app_line}", f"Bundle ID: {bid}", f"Path: {path}",
+        "Use the app path for every sky call (a bundle ID is ambiguous when more than one copy of the app is installed). "
+        "If a call fails by path, retry once with the bundle ID; never guess another app.", "",
         "## Starting state (as the caller believes it is; verify before acting)", task.get("start") or "unknown; observe first", "",
         "## Allowed actions", allow, "",
         "## Forbidden actions", forbid, "",
@@ -642,7 +644,7 @@ def build_brief(task: dict, target: dict) -> str:
         f"Pre-approved by the user for this subtask (quoted; nothing else counts): {pre}", "",
         "## Procedure",
         f"1. In node_repl, run the bootstrap once: {BOOTSTRAP}",
-        f"2. Observe first: sky.get_app_state({{app: \"{target.get('bundle_id') or app_line}\", disableDiff: true}}). Record what you see as observed_before.",
+        f"2. Observe first: sky.get_app_state({{app: \"{target.get('path') or target.get('bundle_id') or app_line}\", disableDiff: true}}). Record what you see as observed_before.",
         "3. Take one action at a time. After EVERY state-changing action call get_app_state again and confirm the change you expected before the next action. Derive every element_index from the latest state; never reuse an index from before an action.",
         "4. If the app was not approved for Computer Use, or the helper errors, stop and reply with status blocked and the exact error text in reason. Do not retry.",
         "5. Finish with a fresh get_app_state so a screenshot exists, and record what you see as observed_after.",
