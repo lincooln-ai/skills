@@ -58,6 +58,8 @@ jobs:
           SKIP_TITLE_REGEX: ${{ inputs.skip-title-regex }}
           SKIP_LABEL: ${{ inputs.skip-label }}
           WAIT_MINUTES: ${{ inputs.wait-minutes }}
+        # Named so a runs-on input that picks a Windows runner still gets bash, not pwsh.
+        shell: bash
         run: |
           set -euo pipefail
           owner=${REPO%/*}
