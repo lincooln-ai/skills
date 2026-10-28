@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "cases": [
+    {
+      "id": "en-onboarding",
+      "language": "en",
+      "request": "Rewrite this draft as a public onboarding note for freelance event planners. Use 95-140 words. Keep the supplied first-person voice and every operational condition. Treat the draft as the complete fact source; do not research or add product claims. Return only the copy.",
+      "source": "I built QueueNote because chasing approvals ate my Fridays. The client approval reminder delivery window setting lives in Settings > Reminders. Planners can choose 09:00-17:00 in their own time zone. The reminders clients receive exclude weekends only if the planner enables Skip weekends; that switch is off by default. The schedule owns your follow-up anxiety, but it does not send anything until you press Publish. A preview shows the next three planned delivery times. Editing the window after publishing affects future reminders, not messages already queued. Start by opening Settings > Reminders, choose a window, inspect Preview, then press Publish. QueueNote cannot tell whether a client has read a reminder.",
+      "questions": [
+        {"q": "Where does the planner choose the reminder window?", "answer": "Settings > Reminders"},
+        {"q": "Which time zone applies to 09:00-17:00?", "answer": "The planner's own time zone"},
+        {"q": "Are weekends skipped by default?", "answer": "No; Skip weekends must be enabled"},
+        {"q": "What starts sending?", "answer": "Pressing Publish"},
+        {"q": "What do later edits affect?", "answer": "Future reminders, not already queued messages"},
+        {"q": "What can QueueNote not tell?", "answer": "Whether a client has read a reminder"}
+      ],
+      "literal_checks": ["QueueNote", "09:00", "17:00", "Skip weekends", "Publish", "Preview"]
+    },
+    {
+      "id": "en-release",
+      "language": "en",
+      "request": "Revise this release notice for existing customers in 95-145 words. This is a factual notice: do not add a hook, personal opinion, anecdote, praise, or a new call to action. Preserve eligibility, dates, comparison and uncertainty. The draft is the entire fact source. Return only the notice.",
+      "source": "From 12 November 2026, AtlasBox 2.4 enables background export for paid workspaces created after 1 June 2026 only when an owner turns on Background export. Existing workspaces remain on manual export. The owner export request approval history view exposes the exports editors requested that owners approved, not rejected requests. In an internal test of 40 files under 10 MB each, median export time fell from 18 seconds to 12 seconds; this is not a promise about other file sizes or accounts. Exports may take longer while the service is busy. Cancellation stops files that have not started exporting; a file already in progress may finish. There is no automatic rollout to free workspaces. Details are in Help > Export.",
+      "questions": [
+        {"q": "When does the change begin and in which version?", "answer": "12 November 2026; AtlasBox 2.4"},
+        {"q": "Which workspaces qualify and who must enable it?", "answer": "Paid workspaces created after 1 June 2026, only if an owner enables Background export"},
+        {"q": "What happens to existing workspaces?", "answer": "They remain on manual export"},
+        {"q": "What does the history view show?", "answer": "Editor requests approved by owners, not rejected requests"},
+        {"q": "What exactly was the test result and scope?", "answer": "40 files under 10 MB each; median 18 to 12 seconds; no guarantee for other sizes/accounts"},
+        {"q": "Does cancellation guarantee that an in-progress file stops?", "answer": "No; it may finish, while unstarted files stop"}
+      ],
+      "literal_checks": ["AtlasBox", "2.4", "2026", "40", "10 MB", "18", "12", "Background export"]
+    },
+    {
+      "id": "en-technical",
+      "language": "en",
+      "request": "Rewrite for app developers new to webhooks, in 90-140 words. Keep exact identifiers, retry semantics and the supplied opinion. Explain necessary technical terms without renaming them. Use only this source. Return only the copy.",
+      "source": "I prefer an honest retry contract to a claim of perfect delivery. ParcelPing provides at-least-once delivery: the same webhook event may arrive more than once. An event consumer idempotency key retention period setting is not available. Instead, your app stores each event_id for 24 hours and ignores duplicate deliveries with that event_id during that period. If your app returns a non-2xx response, ParcelPing retries up to three times within 10 minutes. A 2xx response marks that delivery accepted; it does not prove the app finished processing. Events the service retries can arrive out of order. The retry queue shepherds your data home, but ParcelPing does not provide exactly-once delivery. Start with the example at /docs/webhooks and test a duplicate event before going live.",
+      "questions": [
+        {"q": "What does at-least-once delivery allow?", "answer": "Duplicate arrivals of the same event"},
+        {"q": "Who stores what, and for how long?", "answer": "The app stores each event_id for 24 hours"},
+        {"q": "When does ParcelPing retry, and what is the limit?", "answer": "Non-2xx response; up to three retries within 10 minutes"},
+        {"q": "What does 2xx mean?", "answer": "That delivery was accepted, not necessarily fully processed"},
+        {"q": "Is ordering or exactly-once delivery guaranteed?", "answer": "Neither; retried events can arrive out of order"},
+        {"q": "What is the first recommended test?", "answer": "Use /docs/webhooks and test a duplicate event before going live"}
+      ],
+      "literal_checks": ["ParcelPing", "at-least-once", "event_id", "24", "2xx", "10", "exactly-once", "/docs/webhooks"]
+    },
+    {
+      "id": "en-voice-control",
+      "language": "en",
+      "request": "Lightly edit this already clear public note, using 75-115 words. Preserve the exact sentence 'My calendar is a stubborn little gatekeeper.' It is a deliberate voice choice. Keep the causal explanation and the terms 'calendar sync' and 'read-only'. Do not add a hook, invented limit, or personal experience. Use only the source and return only the copy.",
+      "source": "My calendar is a stubborn little gatekeeper. I use QuietSlot to protect one writing hour each morning because meetings kept landing there. Calendar sync is read-only: QuietSlot reads busy times but cannot create, move, or delete events. When two calendars disagree, it treats either busy signal as busy, so a free slot appears only when both calendars are free. The free plan connects two calendars. A sync can take up to five minutes, and the screen shows when it last finished. Start by connecting one calendar and checking that the busy times match it.",
+      "questions": [
+        {"q": "Why does the author use QuietSlot?", "answer": "Meetings kept landing in the morning writing hour"},
+        {"q": "What does read-only calendar sync permit?", "answer": "Reading busy times; no creating, moving or deleting events"},
+        {"q": "How are conflicting calendars handled?", "answer": "Either busy signal counts as busy; both must be free for a free slot"},
+        {"q": "How many calendars does the free plan connect?", "answer": "Two"},
+        {"q": "How long can sync take and what status is shown?", "answer": "Up to five minutes; the last completion time is shown"},
+        {"q": "What is the first action?", "answer": "Connect one calendar and check its busy times"}
+      ],
+      "literal_checks": ["My calendar is a stubborn little gatekeeper.", "QuietSlot", "read-only"]
+    },
+    {
+      "id": "zh-notice",
+      "language": "zh",
+      "request": "把草稿改成面向普通用户的简体中文产品通知，180-280 个汉字左右。保留全部条件、否定、数字和操作路径。不要添加个人经历、宣传口号或新的功能承诺。只以草稿为事实来源，只输出通知正文。",
+      "source": "从 2026 年 11 月 12 日起，图袋 2.4 的团队文件导出审批历史查看功能入口在“设置 > 导出”。管理员可查看成员提交且已获批准的导出申请，不包括被拒绝的申请。只有在工作区管理员开启“允许成员导出”后，成员才能提交申请；这个开关默认关闭。管理员批准申请后，系统才开始准备文件。准备完成不代表下载完成，下载链接在生成后 24 小时失效。试用工作区每天最多提交 3 次申请，失败的申请也计入；付费工作区没有这个次数限制，但每个导出包仍不得超过 2 GB。已经开始的导出可能在取消后继续完成。请先打开“设置 > 导出”，检查开关和申请记录。",
+      "questions": [
+        {"q": "新入口何时在哪个版本提供？", "answer": "2026 年 11 月 12 日，图袋 2.4"},
+        {"q": "历史记录包括哪些申请？", "answer": "成员提交且已批准的申请，不包括拒绝的申请"},
+        {"q": "成员何时能提交，开关默认怎样？", "answer": "管理员开启允许成员导出后；默认关闭"},
+        {"q": "什么触发准备文件，准备完成等于下载完成吗？", "answer": "管理员批准后开始准备；不等于下载完成"},
+        {"q": "链接何时失效？", "answer": "生成后 24 小时"},
+        {"q": "试用和付费的限制如何，失败和取消有何影响？", "answer": "试用每天最多3次且失败计入，付费无次数限制但仍每包2GB；开始的导出取消后可能完成"}
+      ],
+      "literal_checks": ["图袋", "2.4", "2026", "24", "3", "2 GB", "允许成员导出"]
+    },
+    {
+      "id": "zh-comparison",
+      "language": "zh",
+      "request": "把草稿改成面向新用户的简体中文功能说明，160-260 个汉字左右。保留作者已有的态度、技术术语、适用范围和全部限制。解释压缩表达，但不要编造使用经历。只用草稿信息，只输出正文。",
+      "source": "我更在意能查清一次失败，而不是把“永不丢失”写在首页。回执盒采用“至少一次投递”，意思是同一条通知可能重复到达。接收应用需要保存通知的 event_id 24 小时，并在这段时间内忽略相同 event_id 的重复通知。服务只在收到非 2xx 响应时重试，最多重试 3 次，全部重试发生在 10 分钟内。收到 2xx 只表示接收应用已接受这次投递，不表示业务处理成功。管理员通知失败重试记录查询页只展示已经发生的重试，不预测下一次是否成功。重试通知可能乱序到达。先到“帮助 > 通知示例”发送一次测试，再用相同 event_id 测试重复通知。",
+      "questions": [
+        {"q": "至少一次投递是什么意思？", "answer": "同一通知可能重复到达"},
+        {"q": "谁保存什么多久？", "answer": "接收应用保存event_id 24小时并忽略期间重复通知"},
+        {"q": "重试条件和限制是什么？", "answer": "非2xx才重试，最多3次，10分钟内"},
+        {"q": "2xx能证明业务成功吗？", "answer": "不能，只表示接受投递"},
+        {"q": "重试页能预测成功或保证顺序吗？", "answer": "只展示已发生重试，不预测成功；通知可能乱序"},
+        {"q": "用户先做什么测试？", "answer": "帮助 > 通知示例发送一次，再用相同event_id测试重复"}
+      ],
+      "literal_checks": ["至少一次投递", "event_id", "24", "2xx", "3", "10"]
+    }
+  ]
+}
