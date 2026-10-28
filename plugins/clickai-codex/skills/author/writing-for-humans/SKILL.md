@@ -40,6 +40,14 @@ Check a draft against each by name:
 - **Process bleed.** The piece narrates the hidden work behind it: chat history shipping as copy. Write from the facts, ordered by the reader's questions, never by the build timeline.
 - **Clean nothing.** Tidy, de-AI'd, and empty. A scrub is not a voice. The test: does the piece contain an opinion, an admitted limit, or a choice a competitor's page wouldn't make?
 
+## Keep meaning while reducing reading effort
+
+For a dense or qualified passage, first note its material claims: who does what to whom, under which conditions, with what limits or uncertainty. Track the actor for each action separately; naming someone as a viewer does not also name them as the approver. For a feature limitation, make that feature the grammatical subject so the limitation cannot attach to a person using it.
+
+Rewrite the relationship that causes a second reading. A connective, an explicit actor, or a few extra words can make a compressed phrase easier to follow. Keep established terms and deliberate voice choices that the audience understands. Use this as a local repair, including in Chinese, rather than applying a grammar ban or a sentence-length target to the whole page.
+
+Compare the final copy with those source claims, including after the scrub. Preserve actors, quantities and units, negation, eligibility, timing, comparisons, uncertainty, and exceptions. Preserve the direction of conditions: "if A, then B" does not establish "B only if A." Restore a missing restriction or actor from the source; leave unknowns unknown. Each instruction also needs support from the task or source; add a next action only when that support exists. Done means every material claim remains recoverable, and no new claim or stronger promise entered through the edit.
+
 ## Standing voice rules
 
 Warmth never buys these back:
@@ -76,3 +84,5 @@ Qualities of the finished page, judged by reading it cold:
 ## Attribution
 
 The guide structure is modeled on the README of Matt Pocock's [skills](https://github.com/mattpocock/skills) (MIT): hook, thirty-second start, problem → fix framing, and reference last are the shape his README demonstrates; the quoted phrases in Warmth moves ("it won't untangle the mud for you", "Hack around with them. Make them your own.") are his, and the *It's working if* section follows the outcome-test shape of his skill docs pages. *Process bleed* is [forint573/human-copywrite](https://github.com/forint573/human-copywrite)'s term (Apache-2.0). The scrub's guardrails (clusters over isolated tells, voice sample outranks the tell rules, no fabrication) follow [blader/humanizer](https://github.com/blader/humanizer) (MIT), whose 33-pattern catalog builds on Wikipedia's "Signs of AI writing". This edition uses the default plainspoken punctuation rule unless the user explicitly selects a project voice, and keeps whole-sentence rewriting for flagged passages. What this catalog adds: the register split against its sibling writing-for-agents, the *agent-register bleed* and *clean nothing* failure modes, the standing voice rules, and the two checkable exit sections.
+
+The conditional reading-effort pass adapts the feature analysis in [Clark, Martin and Mahowald (2026)](https://arxiv.org/abs/2610.29162) as editing cues, with question-based meaning checks informed by [Agrawal and Carpuat (2024)](https://aclanthology.org/2024.tacl-1.24/). These are editing heuristics, not a demonstrated human-comprehension benefit of this skill.

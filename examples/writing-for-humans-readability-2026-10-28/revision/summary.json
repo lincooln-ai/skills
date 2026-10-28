@@ -1,0 +1,69 @@
+{
+  "answer_points": 83,
+  "answer_possible": 84,
+  "flagged_outputs": [
+    {
+      "case_id": "en-onboarding",
+      "repetition": 1,
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unsupported_or_changed": [
+        "新增建议：用户仍需检查审批本身；来源未提出这一步操作。"
+      ],
+      "evidence": [
+        "设置路径、用户自己的时区、周末开关默认关闭、Publish 启动发送、后续编辑不影响已排队消息，以及无法判断是否已读，均明确保留。"
+      ]
+    },
+    {
+      "case_id": "zh-comparison",
+      "repetition": 1,
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "unsupported_or_changed": [
+        "“查看已发生的重试”未保留查询页“只展示”这类记录的排他限制。",
+        "“管理员……不能预测下次是否成功”可能把查询页不提供预测改成管理员无法预测；这是主体歧义，并非确定的主体替换。"
+      ],
+      "evidence": [
+        "重复投递、接收应用保存并去重、仅非 2xx 触发重试、次数与时间限制、接受不等于业务成功，以及两步测试均明确保留。",
+        "第五题虽保留乱序，但没有明确限制查询页只展示已发生重试；预测能力的否定也可能修饰管理员，因此未完整表达预期答案。"
+      ]
+    },
+    {
+      "case_id": "zh-comparison",
+      "repetition": 2,
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unsupported_or_changed": [
+        "“管理员……不能预测下次是否成功”存在主体歧义：可能理解为管理员无法预测，而来源限定的是查询页不提供预测。"
+      ],
+      "evidence": [
+        "“在……查询页只能查看已发生的重试”明确保留展示范围限制；结合紧接的“不能预测”和乱序说明，第五题完整表达了页面能力限制。",
+        "其余五项均明确保留；预测句仍有可能的主体歧义，但不足以认定发生了确定的语义错误。"
+      ]
+    }
+  ],
+  "exact_voice_control": [
+    true,
+    true
+  ],
+  "model_regression_pass": false,
+  "limitation": "Exploratory source-grounded regression; no baseline comparison or human readers"
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "fd4b6d1d012d8b1ca0db68c035162e10c455c053",
+  "input_sha256": {
+    "SKILL.md": "65b583df34e0e9ad01e4dd06db23ca327f652b7b0be9cd81b9268ad4fd01ca3c",
+    "last-mile-scrub.md": "ec9b76c1ddc2bd4688315227f3163f5a12683080aa720349dd9499e84d0dfa46",
+    "tell-catalog.md": "d59c38773d4cb8d1b09ca36160b9c4cb42f9506327af848e51033e10b3673478",
+    "clarity.md": "7ae72c7689a1b84abe226cab052d13969cbf9c83693a8bf41f6724e1bbf7132a",
+    "preservation.md": "22e801dd013ec24b2ea012e348516f2a51be17cbe9d2b6e62ebb8dd2099bc540",
+    "PLAN.md": "1d3d4d095624f6cc3fe6a95f744bf7594ba8eb5e4c71c45ca96c0dd28bdb30af",
+    "fixtures.json": "0ff21083fc6a66c20e1a2c537e184c21b568534da89df0385c8957108756cfab"
+  },
+  "arms": {
+    "B": [],
+    "R": [
+      "clarity.md"
+    ],
+    "F": [
+      "preservation.md"
+    ],
+    "RF": [
+      "clarity.md",
+      "preservation.md"
+    ]
+  },
+  "repetitions": 2,
+  "case_count": 6,
+  "generation_contexts": 8,
+  "judge_contexts": 12
+}

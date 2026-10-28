@@ -1,0 +1,32 @@
+{
+  "outputs": [
+    {
+      "case_id": "en-onboarding",
+      "copy": "I built QueueNote because chasing approvals ate my Fridays. If you're a freelance event planner, start in Settings > Reminders. Choose a client approval reminder delivery window; you can choose 09:00-17:00 in your own time zone. Check Preview for the next three planned delivery times, then press Publish.\n\nReminders include weekends unless you enable Skip weekends, which is off by default. Nothing sends until you press Publish. If you edit the window after publishing, the change applies to future reminders, not messages already queued.\n\nQueueNote cannot tell whether a client has read a reminder. It gives you a schedule for sending reminders, but you'll still need to check for the approval itself."
+    },
+    {
+      "case_id": "en-release",
+      "copy": "From 12 November 2026, AtlasBox 2.4 makes background export available to paid workspaces created after 1 June 2026, only when an owner turns on Background export. Existing workspaces remain on manual export. Free workspaces receive no automatic rollout.\n\nThe approval history view shows export requests submitted by editors and approved by owners. It excludes rejected requests.\n\nIn an internal test of 40 files, each under 10 MB, median export time fell from 18 seconds to 12 seconds. This result is not a promise about other file sizes or accounts. Exports may take longer while the service is busy.\n\nCancellation stops files that have not started exporting. A file already in progress may finish. Details are in Help > Export."
+    },
+    {
+      "case_id": "en-technical",
+      "copy": "I prefer an honest retry contract to a claim of perfect delivery. ParcelPing uses webhooks, event notifications sent to your app, with at-least-once delivery: the same event may arrive more than once.\n\nThere is no setting for how long your app keeps idempotency keys, identifiers used to recognize duplicates. Your app stores each event_id for 24 hours and ignores deliveries with the same event_id during that period.\n\nIf your app returns a non-2xx response, ParcelPing retries up to three times within 10 minutes. A 2xx response marks that delivery accepted, not processing complete. Retried events can arrive out of order. ParcelPing does not provide exactly-once delivery.\n\nStart at /docs/webhooks and test a duplicate event before going live."
+    },
+    {
+      "case_id": "en-voice-control",
+      "copy": "My calendar is a stubborn little gatekeeper. I use QuietSlot to protect one writing hour each morning because meetings kept landing there.\n\nWith read-only calendar sync, QuietSlot reads busy times but cannot create, move, or delete events. When two calendars disagree, either busy signal counts as busy, so a free slot appears only when both calendars are free.\n\nThe free plan connects two calendars. A sync can take up to five minutes, and the screen shows when it last finished. Start by connecting one calendar and checking that its busy times match."
+    },
+    {
+      "case_id": "zh-comparison",
+      "copy": "我更在意查清失败，而不是承诺“永不丢失”。回执盒采用“至少一次投递”，同一通知可能重复到达。接收应用须保存 event_id 24 小时，期间忽略同一 event_id 的重复通知。\n\n服务只在收到非 2xx 响应时重试，最多 3 次，均在 10 分钟内。2xx 只表示接收应用接受投递，不代表业务成功。重试通知可能乱序。\n\n管理员可在通知失败重试记录查询页查看已发生的重试，不能预测下次是否成功。先到“帮助 > 通知示例”发送测试，再用相同 event_id 测试重复通知。"
+    },
+    {
+      "case_id": "en-holdout",
+      "copy": "In FernDesk 3.1, owners can use the sharing approval audit view to see document-sharing requests that contributors submitted and reviewers accepted. Viewing the log does not mean an owner accepts a request.\n\nIf the malware scan finds a suspicious attachment, FernDesk pauses that upload. Whether other events can pause uploads is unspecified.\n\nA contributor can withdraw a request until a reviewer accepts it. After acceptance, withdrawal may fail if sharing is already in progress.\n\nOn the Starter plan, the audit view retains entries for 14 days, including rejected requests. This retention period does not mean the documents themselves are deleted after 14 days.\n\nStart in Settings > Sharing and open Audit history."
+    },
+    {
+      "case_id": "zh-holdout",
+      "copy": "在纸桥 1.8 中，项目成员提交资料共享申请，由审核员批准。项目负责人可在“设置 > 共享记录”查看已批准和被拒绝的申请；打开记录不代表负责人批准申请。\n\n连接中断时，纸桥会暂停上传；是否还有其他暂停原因，尚未说明。成员可在审核员批准前撤回申请；批准后，如果共享已开始，撤回可能失败。\n\n体验版保留记录 7 天，包括被拒绝的申请。这不表示资料文件会在 7 天后自动删除。一次最多上传 8 个文件，任意一个失败都不会撤销其他已完成的文件。\n\n请先到“设置 > 共享记录”查看一条申请的状态。"
+    }
+  ]
+}

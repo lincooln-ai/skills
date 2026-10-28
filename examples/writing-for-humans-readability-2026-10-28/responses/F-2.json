@@ -1,0 +1,28 @@
+{
+  "outputs": [
+    {
+      "case_id": "zh-comparison",
+      "copy": "我更在意能查清一次失败，而非宣称“永不丢失”。回执盒采用“至少一次投递”，同一通知可能重复到达。接收应用须保存 event_id 24 小时，期间忽略同 event_id 的重复通知。服务仅收到非 2xx 响应才重试，最多 3 次，均在 10 分钟内；重试通知可能乱序到达。2xx 仅表示应用接受投递，不代表业务处理成功。“管理员通知失败重试记录查询页”只展示已发生的重试，不预测下次是否成功。先到“帮助 > 通知示例”发送测试，再用相同 event_id 测试重复通知。"
+    },
+    {
+      "case_id": "zh-notice",
+      "copy": "2026 年 11 月 12 日起，图袋 2.4 在“设置 > 导出”提供团队文件导出审批历史，仅展示成员提交且管理员已批准的申请，不含被拒申请。\n\n“允许成员导出”默认关闭，工作区管理员开启后成员才能申请。管理员批准后系统才准备文件；准备完成不代表下载完成，链接生成后 24 小时失效。\n\n试用工作区每天最多提交 3 次，失败也计入；付费工作区无此次数限制，但每个导出包仍不得超过 2 GB。已开始的导出可能在取消后继续完成。\n\n请先打开“设置 > 导出”，检查开关和申请记录。"
+    },
+    {
+      "case_id": "en-voice-control",
+      "copy": "My calendar is a stubborn little gatekeeper. I use QuietSlot to protect one writing hour each morning because meetings kept landing there. Its calendar sync is read-only. QuietSlot reads busy times but cannot create, move, or delete events. When two calendars disagree, either busy signal counts as busy, so a free slot appears only when both calendars are free. The free plan connects two calendars. A sync can take up to five minutes, and the screen shows when it last finished. Start by connecting one calendar and checking that its busy times match."
+    },
+    {
+      "case_id": "en-technical",
+      "copy": "I prefer an honest retry contract to a claim of perfect delivery. ParcelPing provides at-least-once delivery: the same webhook event, a notification to your app, may arrive repeatedly. There is no setting for how long your app retains idempotency keys, identifiers used to recognize duplicates. Your app must store each event_id for 24 hours and ignore duplicates with that event_id during that period.\n\nOnly a non-2xx response triggers retries, up to three within 10 minutes. A 2xx response means the delivery was accepted, not that processing finished. Retried events may arrive out of order. ParcelPing does not provide exactly-once delivery.\n\nStart with the example at /docs/webhooks and test a duplicate event before going live."
+    },
+    {
+      "case_id": "en-release",
+      "copy": "From 12 November 2026, AtlasBox 2.4 supports background export only for paid workspaces created after 1 June 2026, and only when an owner enables Background export. Existing workspaces remain on manual export. Free workspaces receive no automatic rollout.\n\nOwners can view the approval history of export requests submitted by editors. It includes approved requests, not rejected ones.\n\nIn an internal test of 40 files, each under 10 MB, median export time fell from 18 to 12 seconds. This does not promise the same results for other file sizes or accounts. Exports may take longer while the service is busy.\n\nCancellation stops files that have not started exporting. A file already in progress may finish. Details are in Help > Export."
+    },
+    {
+      "case_id": "en-onboarding",
+      "copy": "I built QueueNote because chasing approvals ate my Fridays. To set when client approval reminders go out, open Settings > Reminders. You can choose 09:00-17:00 in your own time zone.\n\nReminders exclude weekends only if you enable Skip weekends, which is off by default. Check Preview to see the next three planned delivery times, then press Publish. Nothing is sent until you do.\n\nIf you edit the delivery window after publishing, the change affects future reminders, not messages already queued. QueueNote cannot tell whether a client has read a reminder."
+    }
+  ]
+}
