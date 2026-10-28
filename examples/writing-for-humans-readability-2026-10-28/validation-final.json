@@ -15,5 +15,16 @@
     "both editions of all 24 Markdown twins",
     "all 109 rendered characters covered; 3 font hashes match"
   ],
-  "caveat": "One hook test skips because its optional shell is not installed; full clean offline-font CI build not run locally."
+  "caveat": "One optional-shell hook test skipped; remote Actions did not start.",
+  "cold_cache_offline_font_build": {
+    "exit_code": 0,
+    "pages": 252,
+    "next_version": "15.5.22",
+    "mock": "tests/site/google-fonts-mock.cjs",
+    "cache": "previous .next moved out of site before build"
+  },
+  "remote_ci": {
+    "state": "not_started",
+    "workflow_enable_result": "GitHub Actions endpoint returned HTTP 404 for ci.yml on default branch"
+  }
 }
