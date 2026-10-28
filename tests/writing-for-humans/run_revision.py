@@ -15,8 +15,9 @@ spec.loader.exec_module(pilot)
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=["prepare", "generate", "judge", "summarize"])
+    parser.add_argument("--round", choices=["revision", "revision-2"], default="revision")
     args = parser.parse_args()
-    out = pilot.DEFAULT_OUT / "revision"
+    out = pilot.DEFAULT_OUT / args.round
     out.mkdir(exist_ok=True)
     selected = {"en-onboarding", "en-release", "en-technical", "zh-comparison", "en-voice-control"}
     cases = [c for c in pilot.read_json(Path(__file__).with_name("fixtures.json"))["cases"] if c["id"] in selected]

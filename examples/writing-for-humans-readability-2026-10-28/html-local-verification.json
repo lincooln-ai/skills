@@ -1,0 +1,18 @@
+{
+  "artifact": "writing-for-humans-readability.html",
+  "sha256": "bc07fabbd2cbfed30407c5c0ece84dd61b63a4cc64bb88389c461a4a4d02e6a9",
+  "local_only": true,
+  "lan_exposure": false,
+  "renderer_viewports": [
+    390,
+    1280
+  ],
+  "renderer_problems": 0,
+  "browser": "Codex in-app browser",
+  "verified_interactions": [
+    "case selection updates before/after and condition label",
+    "fixed source disclosure shows matching Chinese source",
+    "final rules disclosure shows tested final pass"
+  ],
+  "deliverable_tab_retained": true
+}

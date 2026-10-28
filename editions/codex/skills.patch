@@ -125,7 +125,7 @@
  
  The sibling skill [writing-for-agents](../writing-for-agents/SKILL.md) makes documents predictable enough that an agent runs the same process every time. This skill makes pages worth a stranger's next minute: the reader is free to leave at any sentence, and the page earns each one. The compression that serves an agent reads cold to a human; when the document is a SKILL.md, an AGENTS.md, or a reference an agent consumes, use the sibling instead.
  
-@@ -45,9 +47,9 @@
+@@ -53,9 +55,9 @@
  - **Checkable claims only.** Every claim hands the reader a way to verify it: a link, a sourced number, or a behavior they can try. A claim that offers none is absent.
  - **No stale numbers.** A count or date that will rot either lives where the release process updates it, or is written so it cannot rot ("the catalog table below is the current list").
  - **Facts sacred.** Never invent a user, an anecdote, or a metric to sound human. Where a fact is missing, leave a visible placeholder and go get the fact.
@@ -138,7 +138,7 @@
  
  ## Last-mile scrub
  
-@@ -67,10 +69,10 @@
+@@ -75,12 +77,12 @@
  - Hook first, quickest start second, reference last; every section leaves a visible next action.
  - No insider term appears before the sentence that teaches it: the page teaches its vocabulary or drops it.
  - Every claim is checkable or absent, every number has a live source or cannot rot, and nothing was invented to sound human.
@@ -151,6 +151,8 @@
  
 -The guide structure is modeled on the README of Matt Pocock's [skills](https://github.com/mattpocock/skills) (MIT): hook, thirty-second start, problem → fix framing, and reference last are the shape his README demonstrates; the quoted phrases in Warmth moves ("it won't untangle the mud for you", "Hack around with them. Make them your own.") are his, and the *It's working if* section follows the outcome-test shape of his skill docs pages. *Process bleed* is [forint573/human-copywrite](https://github.com/forint573/human-copywrite)'s term (Apache-2.0). The scrub's guardrails (clusters over isolated tells, voice sample outranks the tell rules, no fabrication) follow [blader/humanizer](https://github.com/blader/humanizer) (MIT), whose 33-pattern catalog builds on Wikipedia's "Signs of AI writing"; the dash budget is a softer cousin of that skill's outright em-and-en-dash ban. What this catalog adds: the register split against its sibling writing-for-agents, the *agent-register bleed* and *clean nothing* failure modes, the standing voice rules, and the two checkable exit sections.
 +The guide structure is modeled on the README of Matt Pocock's [skills](https://github.com/mattpocock/skills) (MIT): hook, thirty-second start, problem → fix framing, and reference last are the shape his README demonstrates; the quoted phrases in Warmth moves ("it won't untangle the mud for you", "Hack around with them. Make them your own.") are his, and the *It's working if* section follows the outcome-test shape of his skill docs pages. *Process bleed* is [forint573/human-copywrite](https://github.com/forint573/human-copywrite)'s term (Apache-2.0). The scrub's guardrails (clusters over isolated tells, voice sample outranks the tell rules, no fabrication) follow [blader/humanizer](https://github.com/blader/humanizer) (MIT), whose 33-pattern catalog builds on Wikipedia's "Signs of AI writing". This edition uses the default plainspoken punctuation rule unless the user explicitly selects a project voice, and keeps whole-sentence rewriting for flagged passages. What this catalog adds: the register split against its sibling writing-for-agents, the *agent-register bleed* and *clean nothing* failure modes, the standing voice rules, and the two checkable exit sections.
+ 
+ The conditional reading-effort pass adapts the feature analysis in [Clark, Martin and Mahowald (2026)](https://arxiv.org/abs/2610.29162) as editing cues, with question-based meaning checks informed by [Agrawal and Carpuat (2024)](https://aclanthology.org/2024.tacl-1.24/). These are editing heuristics, not a demonstrated human-comprehension benefit of this skill.
 --- a/skills/author/writing-for-humans/references/last-mile-scrub.md
 +++ b/skills/author/writing-for-humans/references/last-mile-scrub.md
 @@ -9,18 +9,18 @@

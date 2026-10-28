@@ -8,6 +8,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+
+- A conditional source-comparison pass for dense or qualified public copy. It preserves each actor and the direction of a condition, permits useful connecting words, and checks meaning again after the scrub.
+- A reproducible four-arm English/Chinese pilot with frozen inputs, raw outputs, blind reversed-order grading and failure analysis. The initial additions did not outperform the baseline on retention and were rejected; the narrower revision receives separate exploratory regression checks. No human-comprehension or general performance gain is claimed.
+
 ## [v1.3.0] - 2026-09-05 — positioning canon points at the decision record
 
 ### Changed

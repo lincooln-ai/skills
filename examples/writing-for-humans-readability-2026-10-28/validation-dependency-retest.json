@@ -1,0 +1,35 @@
+{
+  "dependency": "jq-1.7",
+  "scope": "task-local extracted packages; no system installation",
+  "all_pass": true,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/gate",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.022s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/codex",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "output": "  Poppins  normal  400  woff2=0KB  b64=0KB\n  Lora     normal  400  woff2=0KB  b64=0KB\n\nwrote /tmp/tmp3tdsslu0/installed/references/plan-fonts.css  (0KB total, 2 faces, raw woff2 0KB)\n..error: egress hash drift: the packet no longer matches the approved content hash \u2014 refusing to spawn the board\n.........................\n----------------------------------------------------------------------\nRan 27 tests in 3.518s\n\nOK\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "all_required_local_checks_pass": true,
+  "unit_tests_run": 1951,
+  "unit_tests_passed": 1950,
+  "unit_tests_skipped": 1,
+  "model": "gpt-6.1-sol",
+  "cli": "codex-cli 0.161.0",
+  "model_turns": 26,
+  "initial_pilot_outputs": 48,
+  "final_regression_outputs": 14,
+  "final_question_coverage": "84/84",
+  "site_build": "Next.js 15.5.22; 252 static pages generated",
+  "site_checks": [
+    "writing-for-humans link-preview card",
+    "both editions of all 24 Markdown twins",
+    "all 109 rendered characters covered; 3 font hashes match"
+  ],
+  "caveat": "One hook test skips because its optional shell is not installed; full clean offline-font CI build not run locally."
+}

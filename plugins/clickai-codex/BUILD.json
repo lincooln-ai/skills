@@ -70,11 +70,11 @@
       "executable": false
     },
     "skills/author/writing-for-humans/CHANGELOG.md": {
-      "sha256": "579d4571d1fc2317d683696f84e3f47c49616051cc2200f74e48d6d820c16f12",
+      "sha256": "ccd61c5e372cc0318e474e79e06ad4e95fc2236d0083abd799990a6dd0ca4ca4",
       "executable": false
     },
     "skills/author/writing-for-humans/SKILL.md": {
-      "sha256": "22b8d42b6b100e6349835c49246620c34e1f26f9707c96e325ed108a72cd2024",
+      "sha256": "d23447b8dd1d834d811de7ce7b598bb35fb19eee980888b6d76ed87fa8a80164",
       "executable": false
     },
     "skills/author/writing-for-humans/agents/openai.yaml": {

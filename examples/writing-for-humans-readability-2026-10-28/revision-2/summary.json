@@ -1,0 +1,11 @@
+{
+  "answer_points": 84,
+  "answer_possible": 84,
+  "flagged_outputs": [],
+  "exact_voice_control": [
+    true,
+    true
+  ],
+  "model_regression_pass": true,
+  "limitation": "Exploratory source-grounded regression; no baseline comparison or human readers"
+}

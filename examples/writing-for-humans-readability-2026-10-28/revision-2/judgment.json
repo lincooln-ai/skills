@@ -1,0 +1,156 @@
+{
+  "cases": [
+    {
+      "case_id": "en-onboarding",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "明确保留 Settings > Reminders、规划者自己的时区，以及默认关闭、须主动启用的 Skip weekends。",
+        "明确要求按 Publish 才发送；后续修改只影响未来提醒，不影响已排队消息；无法判断客户是否已读。"
+      ]
+    },
+    {
+      "case_id": "en-onboarding",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "“As a planner”和“your own time zone”明确时区所属；周末排除条件和默认状态均保留。",
+        "“sends nothing until you do”承接 Press Publish；未来提醒与已排队消息的区别、无法判断已读的限制均明确。"
+      ]
+    },
+    {
+      "case_id": "en-release",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "日期、版本、付费及创建日期资格、owner 启用条件和现有工作区继续手动导出均明确。",
+        "历史记录中的提交者为 editors，批准者为 owners，拒绝请求被排除。",
+        "测试明确为40个各小于10 MB的文件，中位数18秒降至12秒，并保留外推限制；取消停止未开始文件，进行中文件可能完成。"
+      ]
+    },
+    {
+      "case_id": "en-release",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "完整保留生效日期、版本、工作区资格、owner 启用条件，以及现有工作区的手动导出状态。",
+        "明确 editors 提交、owners 批准，历史记录排除拒绝请求。",
+        "测试规模、每个文件大小、中位数变化及不保证其他大小或账户结果均明确；取消的适用范围和进行中文件的不确定性均保留。"
+      ]
+    },
+    {
+      "case_id": "en-technical",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "明确同一事件可能重复到达，由应用保存各 event_id 24小时并忽略期间重复投递。",
+        "非2xx触发最多三次、10分钟内的重试；2xx仅表示接受投递，不能证明处理完成。",
+        "明确重试可能乱序、不提供 exactly-once，并保留 /docs/webhooks 示例和上线前重复事件测试。"
+      ]
+    },
+    {
+      "case_id": "en-technical",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "保存主体、event_id、24小时、重试条件与次数和时间限制均明确；2xx与处理完成的区别也明确。",
+        "明确重试可能乱序、不提供 exactly-once，并保留示例路径及上线前测试。",
+        "“ignore deliveries with the same event_id”未再次写出 duplicate，孤立阅读可能有歧义；结合前文“recognize duplicates”和保存标识的上下文，指向重复投递，不构成确定的含义错误。"
+      ]
+    },
+    {
+      "case_id": "en-voice-control",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "逐字保留“My calendar is a stubborn little gatekeeper.”，并保留会议占用早晨写作时间的因果解释。",
+        "明确只读权限、任一忙碌即视为忙碌、双方空闲才显示空档。",
+        "免费版两个日历、同步最多五分钟、最后完成时间，以及先连接一个日历并核对忙碌时间均明确。"
+      ]
+    },
+    {
+      "case_id": "en-voice-control",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "逐字保留“My calendar is a stubborn little gatekeeper.”，保留 calendar sync、read-only 及使用原因。",
+        "读取与禁止创建、移动、删除的权限边界，以及两个日历的忙闲条件均明确。",
+        "完整保留免费版数量、同步时长及状态显示、首次连接与核对操作。"
+      ]
+    },
+    {
+      "case_id": "zh-comparison",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "明确重复到达的含义，以及接收应用保存 event_id 24小时、期间忽略重复通知的责任。",
+        "“只在收到非 2xx 响应时”保留必要条件方向；最多三次、10分钟内及2xx不代表业务成功均明确。",
+        "记录页只展示已发生重试、不预测成功，重试可能乱序；测试入口和使用相同 event_id 的后续测试均保留。"
+      ]
+    },
+    {
+      "case_id": "zh-comparison",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "接收应用的保存和去重责任、24小时期限、重复投递含义均明确。",
+        "仅非2xx才重试、最多三次且全部在10分钟内，以及接受投递不等于业务成功均保留。",
+        "管理员查看的页面只展示已发生重试、不预测成功；乱序可能性及两步测试顺序均明确。"
+      ]
+    },
+    {
+      "case_id": "en-holdout",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "FernDesk 3.1及 contributors 提交、reviewers 接受、owners 查看三种角色均明确；查看不等于接受。",
+        "扫描发现可疑附件会暂停该上传，并明确其他暂停事件是否存在尚未说明。",
+        "接受后且共享已开始时撤回可能失败；Starter保留14天的是含拒绝请求的审计记录，不表示删除文档；起始路径完整。"
+      ]
+    },
+    {
+      "case_id": "en-holdout",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "版本和提交、接受、查看的角色明确；“Viewing the log does not mean you accept a request”保留查看不构成批准。",
+        "可疑附件触发暂停该上传，其他可能触发因素明确为未说明，没有改成唯一条件。",
+        "撤回失败的时点和不确定性、Starter记录的14天期限及拒绝请求范围、不意味着文档删除、首次入口均保留。"
+      ]
+    },
+    {
+      "case_id": "zh-holdout",
+      "repetition": 1,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "纸桥1.8及成员提交、审核员批准、负责人查看的角色明确，打开记录不代表批准。",
+        "连接中断会暂停上传，是否唯一原因尚未说明；批准后且共享已开始时，撤回可能失败。",
+        "体验版记录含拒绝申请并保留7天，不表示自动删除资料；最多8个文件，单个失败不撤销其他已完成文件。"
+      ]
+    },
+    {
+      "case_id": "zh-holdout",
+      "repetition": 2,
+      "answers": [1, 1, 1, 1, 1, 1],
+      "unsupported_or_changed": [],
+      "evidence": [
+        "版本、三种角色及负责人打开记录不代表批准均明确。",
+        "保留连接中断导致暂停及其他原因未知；撤回可能失败的条件仍是批准后且共享已经开始。",
+        "7天保留对象为体验版申请记录，包含拒绝申请，不表示资料自动删除；8个文件上限和失败不撤销其他已完成文件均明确。"
+      ]
+    }
+  ]
+}
