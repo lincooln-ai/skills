@@ -1,0 +1,28 @@
+{
+  "outputs": [
+    {
+      "case_id": "en-onboarding",
+      "copy": "I built QueueNote because chasing approvals ate my Fridays. If you're a freelance event planner, start in Settings > Reminders. Choose a client approval reminder delivery window, such as 09:00-17:00 in your own time zone. Check Preview for the next three planned delivery times, then press Publish. Nothing sends until you do.\n\nTo exclude weekends from reminders clients receive, enable Skip weekends. It's off by default.\n\nIf you edit the window after publishing, the change applies to future reminders, not messages already queued. QueueNote cannot tell whether a client has read a reminder."
+    },
+    {
+      "case_id": "en-release",
+      "copy": "From 12 November 2026, AtlasBox 2.4 supports background export only for paid workspaces created after 1 June 2026, and only when an owner enables Background export. Existing workspaces remain on manual export. Free workspaces will not receive an automatic rollout.\n\nThe export approval history shows editor-requested exports that owners approved. It excludes rejected requests.\n\nIn an internal test of 40 files, each under 10 MB, median export time fell from 18 seconds to 12 seconds. This does not promise the same results for other file sizes or accounts. Exports may take longer while the service is busy.\n\nCancellation stops files that have not started exporting. A file already in progress may finish. Details are in Help > Export."
+    },
+    {
+      "case_id": "en-technical",
+      "copy": "I prefer an honest retry contract to a claim of perfect delivery. ParcelPing provides at-least-once delivery: the same webhook event, a notification sent to your app, may arrive repeatedly. It does not provide exactly-once delivery.\n\nThere is no event consumer idempotency key retention period setting to control how long your app remembers events. Your app stores each event_id for 24 hours and ignores duplicates with that event_id during that period.\n\nA non-2xx response triggers up to three retries within 10 minutes. A 2xx response marks that delivery accepted, not processing finished. These are HTTP response codes; 2xx indicates success. Retried events can arrive out of order.\n\nStart with /docs/webhooks and test a duplicate event before going live."
+    },
+    {
+      "case_id": "en-voice-control",
+      "copy": "My calendar is a stubborn little gatekeeper. I use QuietSlot to protect one writing hour each morning because meetings kept landing there. With read-only calendar sync, QuietSlot reads busy times but cannot create, move, or delete events. When two calendars disagree, it treats either busy signal as busy. A free slot appears only when both calendars are free.\n\nThe free plan connects two calendars. A sync can take up to five minutes, and the screen shows when it last finished. Start by connecting one calendar and checking that its busy times match."
+    },
+    {
+      "case_id": "zh-notice",
+      "copy": "从2026年11月12日起，可在图袋2.4的“设置 > 导出”查看团队文件导出审批历史。管理员只能查看成员提交且已获批准的申请，不包括被拒绝的申请。\n\n工作区管理员须开启“允许成员导出”，成员才能提交申请。开关默认关闭。管理员批准后，系统才开始准备文件。准备完成不代表下载完成；下载链接生成后24小时失效。\n\n试用工作区每天最多提交3次申请，失败也计入。付费工作区无此次数限制，但每个导出包仍不得超过2 GB。已经开始的导出可能在取消后继续完成。\n\n请先打开“设置 > 导出”，检查开关和申请记录。"
+    },
+    {
+      "case_id": "zh-comparison",
+      "copy": "我更在意能查清一次失败，而不是把“永不丢失”写在首页。回执盒采用“至少一次投递”，同一条通知可能重复到达。接收应用需保存event_id 24小时，期间忽略相同event_id的重复通知。\n\n服务只在收到非2xx响应时重试，最多3次，全部在10分钟内。2xx只表示接收应用已接受本次投递，不表示业务处理成功。重试通知可能乱序到达。\n\n管理员可在通知失败重试记录查询页查看已发生的重试，不能预测下次是否成功。先到“帮助 > 通知示例”发送一次测试，再用相同event_id测试重复通知。"
+    }
+  ]
+}

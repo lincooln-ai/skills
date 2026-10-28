@@ -1,0 +1,1140 @@
+{
+  "aggregates": [
+    {
+      "language": "all",
+      "arm": "B",
+      "n_outputs": 12,
+      "answer_points": 72.0,
+      "answer_possible": 72,
+      "flagged_outputs": 0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.75,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    },
+    {
+      "language": "all",
+      "arm": "R",
+      "n_outputs": 12,
+      "answer_points": 71.0,
+      "answer_possible": 72,
+      "flagged_outputs": 2,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.792,
+      "coherence": 3.917,
+      "voice_fit": 3.917
+    },
+    {
+      "language": "all",
+      "arm": "F",
+      "n_outputs": 12,
+      "answer_points": 70.0,
+      "answer_possible": 72,
+      "flagged_outputs": 2,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.667,
+      "coherence": 4.0,
+      "voice_fit": 3.958
+    },
+    {
+      "language": "all",
+      "arm": "RF",
+      "n_outputs": 12,
+      "answer_points": 71.0,
+      "answer_possible": 72,
+      "flagged_outputs": 3,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.875,
+      "coherence": 3.917,
+      "voice_fit": 3.917
+    },
+    {
+      "language": "en",
+      "arm": "B",
+      "n_outputs": 8,
+      "answer_points": 48.0,
+      "answer_possible": 48,
+      "flagged_outputs": 0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.75,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    },
+    {
+      "language": "en",
+      "arm": "R",
+      "n_outputs": 8,
+      "answer_points": 47.0,
+      "answer_possible": 48,
+      "flagged_outputs": 2,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.688,
+      "coherence": 3.875,
+      "voice_fit": 3.875
+    },
+    {
+      "language": "en",
+      "arm": "F",
+      "n_outputs": 8,
+      "answer_points": 47.0,
+      "answer_possible": 48,
+      "flagged_outputs": 1,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.625,
+      "coherence": 4.0,
+      "voice_fit": 3.938
+    },
+    {
+      "language": "en",
+      "arm": "RF",
+      "n_outputs": 8,
+      "answer_points": 47.0,
+      "answer_possible": 48,
+      "flagged_outputs": 3,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.812,
+      "coherence": 3.875,
+      "voice_fit": 3.875
+    },
+    {
+      "language": "zh",
+      "arm": "B",
+      "n_outputs": 4,
+      "answer_points": 24.0,
+      "answer_possible": 24,
+      "flagged_outputs": 0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.75,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    },
+    {
+      "language": "zh",
+      "arm": "R",
+      "n_outputs": 4,
+      "answer_points": 24.0,
+      "answer_possible": 24,
+      "flagged_outputs": 0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    },
+    {
+      "language": "zh",
+      "arm": "F",
+      "n_outputs": 4,
+      "answer_points": 23.0,
+      "answer_possible": 24,
+      "flagged_outputs": 1,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.75,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    },
+    {
+      "language": "zh",
+      "arm": "RF",
+      "n_outputs": 4,
+      "answer_points": 24.0,
+      "answer_possible": 24,
+      "flagged_outputs": 0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0
+    }
+  ],
+  "rows": [
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 91,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 89,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 90,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 3.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "The closing instruction to check the preview repeats the earlier Preview step after the note has already moved to post-publication changes."
+        ],
+        [
+          "The final paragraph repeats the instruction to check Preview before publishing after already completing that setup sequence, needlessly interrupting the flow."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 110,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 93,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.5,
+      "coherence": 3.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "The setup sequence reaches Publish before returning to the delivery-window time zone and weekend setting, creating a minor backward step in the onboarding flow."
+        ],
+        [
+          "“Planning freelance events” attaches freelance status to the events rather than clearly identifying the planner as a freelancer.",
+          "The setup sequence reaches Publish before explaining the delivery hours and Skip weekends setting, making the onboarding order less coherent."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 101,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 94,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-onboarding",
+      "language": "en",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 90,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 122,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 118,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 5.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "Q4: 'Owners can view' identifies viewers, but 'includes approved requests' does not identify owners as the approvers. This leaves a material actor/action relationship unspecified."
+        ],
+        [
+          "Q4 / relationship_clarity: 'Owners can view' establishes who views the history, while 'includes approved requests' does not establish who approved them. Owner approval is omitted."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 120,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 5.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "Q4: 'Owners can view' identifies viewers, but 'including approved requests' does not state that owners approved those requests. The approval actor is unspecified."
+        ],
+        [
+          "Q4 / relationship_clarity: Owners are identified as viewers, but 'including approved requests' leaves the approving actor unspecified. Owner approval is omitted."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 123,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 5.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "Q4: Owners are identified as viewers, while 'includes approved requests' leaves unspecified who approved them; owner approval is not unambiguously entailed."
+        ],
+        [
+          "Q4 / relationship_clarity: 'Owners can view' identifies the viewers, but 'includes approved requests' does not identify owners as the approvers. This is an omission."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 122,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 122,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 121,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-release",
+      "language": "en",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 120,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 3.5,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "“Only after” strengthens the source’s conditional retry rule into an exclusive rule."
+        ],
+        [
+          "“webhook event” is left unexplained despite the request to explain necessary technical terms for developers new to webhooks."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 124,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 3.5,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "The source says non-2xx responses cause retries; it does not say they are the only possible trigger."
+        ],
+        [
+          "For developers new to webhooks, non-2xx and 2xx remain unexplained as HTTP response code categories."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 114,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 118,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 117,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.5,
+      "coherence": 4.0,
+      "voice_fit": 3.5,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "“Store each event_id ... and ignore deliveries with that event_id” does not clearly distinguish the initial delivery from subsequent duplicates.",
+          "“Only after” rules out retry triggers that the source does not address."
+        ],
+        [
+          "For developers new to webhooks, non-2xx and 2xx remain unexplained as HTTP response code categories."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 121,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.5,
+      "coherence": 4.0,
+      "voice_fit": 3.5,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "The instruction to store each event_id and ignore deliveries with that identifier leaves unclear that only subsequent duplicate deliveries should be ignored."
+        ],
+        [
+          "For developers new to webhooks, non-2xx and 2xx remain unexplained as HTTP response code categories."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 121,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.5,
+      "coherence": 4.0,
+      "voice_fit": 3.5,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "“The same event_id” attaches to the stored identifier without clearly distinguishing an initial delivery from a subsequent duplicate."
+        ],
+        [
+          "For developers new to webhooks, non-2xx and 2xx remain unexplained as HTTP response code categories."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 125,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-technical",
+      "language": "en",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 119,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 95,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 94,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "The final phrase 'checking that its busy times match' leaves the comparison target implicit, creating a minor ambiguity about what should match the calendar's busy times."
+        ],
+        [
+          "The final instruction says 'its busy times match' without explicitly naming the comparison target; the sync context makes the intended check inferable."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 93,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "The final phrase 'checking that its busy times match' leaves the comparison target implicit, creating a minor ambiguity about what should match the calendar's busy times."
+        ],
+        [
+          "The final instruction says 'its busy times match' without explicitly naming the comparison target; the sync context makes the intended check inferable."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 92,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "The final phrase 'checking that its busy times match' leaves the comparison target implicit, creating a minor ambiguity about what should match the calendar's busy times."
+        ],
+        [
+          "The final instruction says 'its busy times match' without explicitly naming the comparison target; the sync context makes the intended check inferable."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 94,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 97,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": 94,
+      "han_characters": null
+    },
+    {
+      "case_id": "en-voice-control",
+      "language": "en",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "The final phrase 'checking that its busy times match' leaves the comparison target implicit, creating a minor ambiguity about what should match the calendar's busy times."
+        ],
+        [
+          "The final instruction says 'its busy times match' without explicitly naming the comparison target; the sync context makes the intended check inferable."
+        ]
+      ],
+      "literal_warnings": [],
+      "words": 93,
+      "han_characters": null
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 195
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 176
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 195
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 178
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 176
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 173
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 174
+    },
+    {
+      "case_id": "zh-notice",
+      "language": "zh",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 188
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "R",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 174
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "B",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 168
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "B",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [
+          "“仅收到非 2xx 响应才重试”省略执行主体，紧接接收应用的操作要求，容易使新用户误将重试动作归给接收应用。"
+        ],
+        [
+          {
+            "dimension": "relationship_clarity",
+            "note": "“仅收到非 2xx 响应才重试”省略重试主体，紧接“接收应用须保存……”之后，容易使接收应用与执行重试的服务混淆。"
+          }
+        ]
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 162
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "R",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 164
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "RF",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 166
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "F",
+      "repetition": 1,
+      "answer_points": 5.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 3.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": true,
+      "evidence": [
+        [
+          "第5问：“可……查看已发生的重试”未明确限定页面只展示已发生的重试；“不能预测”的语法主体是管理员，未明确说明页面不预测成功。",
+          "“管理员可在……查看……，不能预测……”使预测限制附着于管理员，改变了原文限制所针对的对象。"
+        ],
+        [
+          {
+            "question": 5,
+            "note": "“可在……查询页查看已发生的重试”没有明确限定页面只展示已经发生的重试。"
+          },
+          {
+            "dimension": "relationship_clarity",
+            "note": "“管理员可在……查看已发生的重试，不能预测下次是否成功”在语法上将“不能预测”接到管理员，未清楚表达这是查询页的功能限制。"
+          }
+        ]
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 177
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "RF",
+      "repetition": 1,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 177
+    },
+    {
+      "case_id": "zh-comparison",
+      "language": "zh",
+      "arm": "F",
+      "repetition": 2,
+      "answer_points": 6.0,
+      "answer_disagreements": 0,
+      "relationship_clarity": 4.0,
+      "coherence": 4.0,
+      "voice_fit": 4.0,
+      "flagged_material_claim": false,
+      "evidence": [
+        [],
+        []
+      ],
+      "literal_warnings": [],
+      "words": null,
+      "han_characters": 160
+    }
+  ],
+  "warning": "Small same-model pilot; no human comprehension or generalization claim"
+}

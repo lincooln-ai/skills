@@ -1,0 +1,194 @@
+{
+  "en-onboarding/p1": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "en-onboarding/p2": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "en-onboarding/p3": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "en-onboarding/p4": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "en-onboarding/p5": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "en-onboarding/p6": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "en-onboarding/p7": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "en-onboarding/p8": {
+    "arm": "F",
+    "repetition": 2
+  },
+  "en-release/p1": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "en-release/p2": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "en-release/p3": {
+    "arm": "F",
+    "repetition": 2
+  },
+  "en-release/p4": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "en-release/p5": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "en-release/p6": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "en-release/p7": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "en-release/p8": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "en-technical/p1": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "en-technical/p2": {
+    "arm": "F",
+    "repetition": 2
+  },
+  "en-technical/p3": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "en-technical/p4": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "en-technical/p5": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "en-technical/p6": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "en-technical/p7": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "en-technical/p8": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "en-voice-control/p1": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "en-voice-control/p2": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "en-voice-control/p3": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "en-voice-control/p4": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "en-voice-control/p5": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "en-voice-control/p6": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "en-voice-control/p7": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "en-voice-control/p8": {
+    "arm": "F",
+    "repetition": 2
+  },
+  "zh-notice/p1": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "zh-notice/p2": {
+    "arm": "F",
+    "repetition": 2
+  },
+  "zh-notice/p3": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "zh-notice/p4": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "zh-notice/p5": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "zh-notice/p6": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "zh-notice/p7": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "zh-notice/p8": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "zh-comparison/p1": {
+    "arm": "R",
+    "repetition": 1
+  },
+  "zh-comparison/p2": {
+    "arm": "B",
+    "repetition": 1
+  },
+  "zh-comparison/p3": {
+    "arm": "B",
+    "repetition": 2
+  },
+  "zh-comparison/p4": {
+    "arm": "R",
+    "repetition": 2
+  },
+  "zh-comparison/p5": {
+    "arm": "RF",
+    "repetition": 2
+  },
+  "zh-comparison/p6": {
+    "arm": "F",
+    "repetition": 1
+  },
+  "zh-comparison/p7": {
+    "arm": "RF",
+    "repetition": 1
+  },
+  "zh-comparison/p8": {
+    "arm": "F",
+    "repetition": 2
+  }
+}

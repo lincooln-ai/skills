@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "cases": [
+    {
+      "id": "en-holdout",
+      "language": "en",
+      "request": "Rewrite as a public help note for a first-time workspace owner in 95-145 words. Keep every actor, condition and uncertainty. Do not add an opinion or claim that a stated trigger is the only possible trigger. Use only the source and return only the copy.",
+      "source": "In FernDesk 3.1, the contributor document share approval audit view lets owners see document-sharing requests contributors submitted that reviewers accepted. Owners do not accept requests merely by viewing the log. If the malware scan finds a suspicious attachment, FernDesk pauses that upload. The source does not specify whether other events can pause an upload. A contributor can withdraw a request until a reviewer accepts it. After acceptance, withdrawal may fail while sharing is already in progress. On the Starter plan, the audit view retains entries for 14 days, including rejected requests. This does not mean the documents themselves are deleted after 14 days. Start in Settings > Sharing and open Audit history.",
+      "questions": [
+        {"q": "Which version and who submits, accepts, and views requests?", "answer": "FernDesk 3.1; contributors submit, reviewers accept, owners view"},
+        {"q": "Does viewing a request accept it?", "answer": "No"},
+        {"q": "What triggers a pause, and are other triggers ruled out?", "answer": "A suspicious attachment found by the scan pauses that upload; other triggers are unspecified"},
+        {"q": "When can withdrawal fail?", "answer": "After reviewer acceptance while sharing is already in progress"},
+        {"q": "What is retained for 14 days and what is not implied?", "answer": "Starter audit entries, including rejected requests; this does not imply document deletion"},
+        {"q": "Where does the owner start?", "answer": "Settings > Sharing, then Audit history"}
+      ],
+      "literal_checks": ["FernDesk", "3.1", "Starter", "14", "Audit history"]
+    },
+    {
+      "id": "zh-holdout",
+      "language": "zh",
+      "request": "改成面向第一次使用的新用户的简体中文帮助说明，180-280 个汉字左右。保留每个角色、条件、数字和未知项，不补充功能。只以草稿为依据，只输出正文。",
+      "source": "在纸桥 1.8 中，项目成员提交资料共享申请，审核员批准申请，项目负责人可在“设置 > 共享记录”查看已经批准和被拒绝的申请。负责人打开记录并不代表他批准申请。如果连接中断，纸桥会暂停上传；草稿没有说明连接中断是否是唯一暂停原因。成员在审核员批准前可以撤回；批准后，如果共享已经开始，撤回可能失败。体验版的记录保留 7 天，包括被拒绝的申请，这不表示资料文件 7 天后自动删除。一次最多上传 8 个文件；其中任意一个失败都不会撤销其他已完成的文件。请先到“设置 > 共享记录”查看一条申请的状态。",
+      "questions": [
+        {"q": "版本和提交、批准、查看的角色分别是什么？", "answer": "纸桥1.8；成员提交，审核员批准，负责人查看"},
+        {"q": "负责人打开记录等于批准吗？", "answer": "不等于"},
+        {"q": "什么会暂停上传，是否唯一原因？", "answer": "连接中断会暂停；其他原因未知"},
+        {"q": "撤回何时可能失败？", "answer": "批准后共享已开始时"},
+        {"q": "7天保留什么，是否自动删除资料？", "answer": "体验版记录含拒绝申请；不表示自动删除资料文件"},
+        {"q": "一次文件数限制和一个失败的影响？", "answer": "最多8个；一个失败不撤销其他已完成文件"}
+      ],
+      "literal_checks": ["纸桥", "1.8", "7", "8", "设置 > 共享记录"]
+    }
+  ]
+}
